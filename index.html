@@ -1,56 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Mundo</title>
-    <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Mundo</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-   <header>
-       <h1>Hola Hermosa, este es tu sitio web</h1>
-       <nav>
-          <h2> Links importantes </h2>
-         <ol>
-            <!-- es para agrupar listas ordenadas, ul es para listas no ordenadas  -->
-            <li> <a href= "https://developer.mozilla.org/es/docs/Web/HTML"> Estudiar Etiquetas</a></li>
-            <!-- cada li es un componente de la agrupación  -->
-         </ol>
-       </nav>
-   </header>
+  <header>
+    <h1>Hola Hermosa, este es tu sitio web</h1>
+      <nav>
+        <h2> Links importantes </h2>
+        <ol>
+          <!-- es para agrupar listas ordenadas, ul es para listas no ordenadas  -->
+          <li> <a href= "https://developer.mozilla.org/es/docs/Web/HTML"> Estudiar Etiquetas</a></li>
+          <!-- cada li es un componente de la agrupación  -->
+        </ol>
+      </nav>
+  </header>
 
-   <main>
-     <section> 
-         <h2> Sobre mi </h2>
-         <p>Me llamo Juanita, esta será una página donde me gustaría crear mis rutinas y links que me ayudaran para comenzar este viaje de autodescubrimiento</p>
-     </section>
+  <main>
+    <section> 
+      <h2> Sobre mi </h2>
+      <p>Me llamo Juanita, esta será una página donde me gustaría crear mis rutinas y links que me ayudaran para comenzar este viaje de autodescubrimiento</p>
+    </section>
 
-     <section> 
-         <h2> Por Estudiar </h2>
-         <p> Aquí estan algunos temas que me gustaria estudiar y buscar información para lograr ser una mejor versión </p>
-         <ul>
-          <li> Sobre rutinas de cuidado para la piel </li>
-          <li> Rutina para el cuidado del cabello, calendario capilar </li>
-          <li> Ejercicios hipopresivos </li>
-          <li> Libros que me ayuden a mejorar mi productividad </li>
-          <li> Educación financiera </li>
-          <li> Sobre programación </li>
-          <li> analisis de datos </li>
-         </ul>
-     </section> 
-   </main>
-   
-   <aside>
-     <h3> Articulos Relacionados </h3>
-     <ul>
-       <li>><a href="#">Articulo 1</a></li>
-       <li>><a href="#">Articulo 2</a></li>
-     </ul>
-   </aside>
+    <section> 
+      <h2> Por Estudiar </h2>
+      <p> Aquí estan algunos temas que me gustaria estudiar y buscar información para lograr ser una mejor versión </p>
+      <ul>
+        <li> Sobre rutinas de cuidado para la piel </li>
+        <li> Rutina para el cuidado del cabello, calendario capilar </li>
+        <li> Ejercicios hipopresivos </li>
+        <li> Libros que me ayuden a mejorar mi productividad </li>
+        <li> Educación financiera </li>
+        <li> Sobre programación </li>
+        <li> analisis de datos </li>
+      </ul>
+    </section> 
+  </main>
 
-   <footer> 
-     <p> &copy; 2024 Mi Sitio Web todos los derechos reservados </p>
-   </footer>
+  <aside>
+    <h3>Elementos</h3>
+    <p>Espacio de la página para estudiar algunas etiquetas y elementos para al creación de páginas web</p>
+    
+    <h4> Articulos Relacionados</h4>
+    <ul>
+     <li>><a href="#">Articulo 1</a></li>
+     <li>><a href="#">Articulo 2</a></li>
+    </ul>
+     
+    <form>
+      <h4> inputs </h4>
+        <label for="nombre"> Cual es su nombre </label>
+        <input type ="text" placeholder="Pepito Perez" name="nombre"/>
+
+        <label for="email"> Ingrese su email</label>
+        <input type="email" placeholder="pepito@ejemplo.com" name = "email"/>
+        
+        <label for="nacimiento"> Ingrese su fecha de nacimiento</label>
+        <input type="date" placeholder="dd/mm/aaaa" name="nacimiento"/>
+
+        <input type="submit"/>
+    </form>
+  </aside>
+
+  <footer> 
+    <p> &copy; 2024 Mi Sitio Web todos los derechos reservados </p>
+  </footer>
 </body>
 </html>
